@@ -3,37 +3,34 @@ body {
     background-color: white;
 }
 
-
-
     /* Ce quisuit concerne le header */
 header
 {
+    display: flex;
+    height: 126px;
     padding-left: 55px;
+    padding-right: 55px;
+    justify-content: space-between;
 }
 
-.header1{
-    display: flex;
-    margin-right: 55px;
-    justify-content: space-between;
-    
-    }
-
 .booki{
-    width: 61px;
+    position: relative;
+    width: 62px;
     height: 19px;
-    left: 77.56px;
-    margin-top: 100px;
+    top: 44px;
     }
 
 .header1b{
         display: flex;
-        align-items: flex-end;
         width: 30%;
         justify-content: space-around;
-        }
-    
+      }
 
-.header2{
+.header1b1{
+    padding-top: 48px;
+}
+
+.bandeau1{
 padding-top : 80px;
 }
 
@@ -53,6 +50,7 @@ h1 {font-family: 'Raleway', sans-serif;
 h2 {font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    margin: 0;
 }
 
 h3 {font-family: 'Raleway', sans-serif;
