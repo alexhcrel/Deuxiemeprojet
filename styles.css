@@ -1,0 +1,59 @@
+body {
+    max-width: 1400px;
+    background-color: white;
+}
+
+
+
+    /* Ce quisuit concerne le header */
+header
+{
+    padding-left: 55px;
+}
+
+.header1{
+    display: flex;
+    margin-right: 55px;
+    justify-content: space-between;
+    
+    }
+
+.booki{
+    width: 61px;
+    height: 19px;
+    left: 77.56px;
+    margin-top: 100px;
+    }
+
+.header1b{
+        display: flex;
+        align-items: flex-end;
+        width: 30%;
+        justify-content: space-around;
+        }
+    
+
+.header2{
+padding-top : 80px;
+}
+
+.hebergements {
+    background-color: grey;
+}
+
+.lespluspopulaires {
+    border: 1px black solid;
+    background-color: grey;}
+
+h1 {font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+h2 {font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h3 {font-family: 'Raleway', sans-serif;
+}
