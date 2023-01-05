@@ -44,9 +44,10 @@ form{
     display: flex;
     margin-top: 20px;
     height: 49px;
+    margin-bottom: 46px;
     }
 
-input{
+.recherche_d_une_ville{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -95,22 +96,41 @@ button{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 17px;
-    justify-content: space-between;
+    height: 50px;
+    justify-content:space-between;
+    ;
+ 
 }
 .Filtres{
+    display: flex;
     font-size: 18px;
+    justify-content: center;
+    align-items: center;
     
 }
 
+.choix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.choix_du_filtre{
+background-color: white;
+height: 50px;
+
+
+}
 
    /* Ce qui suit concerne le main */
 .hebergements {
-    background-color: grey;
+    background-color: white;
 }
 
 .lespluspopulaires {
     border: 1px black solid;
-    background-color: grey;}
+    background-color: white;}
 
 h1 {font-family: 'Raleway', sans-serif;
     font-weight: 700;
