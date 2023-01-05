@@ -30,10 +30,48 @@ header
     padding-top: 48px;
 }
 
-.bandeau1{
-padding-top : 80px;
+   /* Ce qui suit concerne le bandeau */
+.bandeau{
+   padding-left: 55px;
 }
 
+   .bandeau1{
+    margin-bottom: 8px;
+}
+
+
+
+form{
+
+    padding-top: 20px;
+    }
+
+
+
+}
+input{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+   line-height: 49px;
+   
+  
+}
+
+label{
+
+   
+    
+    }
+
+button[
+   
+]
+
+
+
+
+   /* Ce qui suit concerne le main */
 .hebergements {
     background-color: grey;
 }
@@ -45,13 +83,16 @@ padding-top : 80px;
 h1 {font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 22px;
-}
+    margin: 0;
+    }
 
 h2 {font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 16px;
     margin: 0;
+    
 }
 
 h3 {font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
