@@ -1,3 +1,4 @@
+   
 body {
     max-width: 1400px;
     background-color: white;
@@ -145,31 +146,49 @@ font-family: 'Raleway', sans-serif;
     padding-left: 50px;
     padding-right: 50px;
     justify-content: space-between;
+   
 }
 
 
 .hebergements {
     background-color: #D9D9D9;
-    padding: 15px;
+    padding-top: 42px;
+    padding-left: 40px;
     width: 60%;
     border-radius: 20px;
+    
 }
 
-
+.hebergementamarseille{
+    padding-bottom: 23px;
+}
 .card {
     width: 246px;
     border-radius: 20px; /* 5px rounded corners */
     background-color: white;
     padding: 5px;
+   
         }
     
 .vignette_hebergement{
+   
     border-top-left-radius: 15px;
-    border-top-right-radius: 15px; 
-    
+    border-top-right-radius: 15px;
+    margin-bottom: 5px;
+    height: 124px;
+}
+
+.nomdugite{
+   margin-top: 4px;
+}
+
+.tarif{
+    margin-top: 9px;
 }
 .notation {
-display: flex;
+    display: flex;
+    margin-top: 9px;
+    margin-bottom: 11px;
 }
 .etoilebleue {
     color: black;
@@ -188,22 +207,25 @@ display: flex;
     background-color: white;
     width: 30%;}
 
-}
+
+
 h1 {font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 22px;
-    margin: 0;
-    }
+    margin: 0px;
+    color: black;
+       }
 
 h2 {font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 16px;
     margin: 0;
-    
-}
+        }
 
-h3 {font-family: 'Raleway', sans-serif;
+ h3 {font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 16px;
     margin: 0;
-}
+        }    
+
+
