@@ -2,6 +2,8 @@
 body {
     max-width: 1400px;
     background-color: white;
+    padding-left: 55px;
+   
 }
 
     /* Ce quisuit concerne le header */
@@ -9,10 +11,10 @@ header
 {
     display: flex;
     height: 126px;
-    padding-left: 55px;
     padding-right: 55px;
     justify-content: space-between;
 }
+
 
     .booki{
     position: relative;
@@ -32,9 +34,7 @@ header
 }
 
    /* Ce qui suit concerne le bandeau */
-.bandeau{
-   padding-left: 55px;
-}
+
 
    .bandeau1{
     margin-bottom: 8px;
@@ -143,14 +143,32 @@ font-family: 'Raleway', sans-serif;
    /* Ce qui suit concerne le main */
 .Box1{
     display: flex;
-    padding-left: 50px;
+    
     padding-right: 50px;
     justify-content: space-between;
-   
+    width: 100%;
+   }
+
+   .Box2{
+    margin-top: 60px;
+    display: flex;
+  
+    padding-right: 50px;
+    justify-content: space-between;
+    width: 100%;
+   }
+
+.exemplesactivites{
+    display: flex;
+    
+    width: 100%;
 }
 
+.lesactivites{
+    width: 100%;
+}
 
-.hebergements {
+    .hebergements {
     background-color: #D9D9D9;
     padding-top: 42px;
     padding-left: 40px;
@@ -161,7 +179,23 @@ font-family: 'Raleway', sans-serif;
     
 }
 
+    .populaires {
+    background-color: #D9D9D9;
+    margin-left: 40px;
+    padding-top: 42px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 30%;
+    border-radius: 20px;
+    padding-bottom: 46px;
+    
+}
+
 .hebergementamarseille{
+    padding-bottom: 23px;
+}
+
+.lespluspopulaires{
     padding-bottom: 23px;
 }
 
@@ -169,8 +203,7 @@ font-family: 'Raleway', sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
-}
+    }
 
 
 .card {
@@ -179,10 +212,67 @@ font-family: 'Raleway', sans-serif;
     background-color: white;
     padding: 5px;
     margin-bottom: 30px;
-        }
+}
+       
+.cardpop {
+    display: flex;
+    width: 343px;
+    height: 144px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.cardactivite {
+    display: flex;
+    flex-direction: column;
+    width: 302px;
+    height: 444px;
+    border-radius: 20px;
+    background-color: white;
+    margin-right: 43px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+        
+}
+
+.hebergementpop{
+    display: flex;
+    width: 137px;
+    height: 144px;
+    margin-right: 15px;
+}
     
+.vignette_hebergementpop{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.activites{
+    height: 409px
+}
+
+.vignette_activite{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.descriptifpopulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .vignette_hebergement{
-   
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin-bottom: 5px;
@@ -193,14 +283,30 @@ font-family: 'Raleway', sans-serif;
    margin-top: 4px;
 }
 
+.nomactivite{
+    margin-top: 20px;
+    margin-left: 19px;
+    margin-bottom: 21px;
+}
+
 .tarif{
     margin-top: 9px;
 }
+
+.tarifpopulaire{
+    margin-top: 7px;
+}
+
 .notation {
     display: flex;
     margin-top: 9px;
     margin-bottom: 11px;
 }
+
+.notationpopulaire{
+    margin-bottom: 6px;
+}
+
 .etoilebleue {
     color: black;
 }
@@ -213,10 +319,6 @@ font-family: 'Raleway', sans-serif;
     color: #D9D9D9;
 }
 
-.lespluspopulaires {
-    border: 1px black solid;
-    background-color: white;
-    width: 30%;}
 
 .afficherplus{
     margin-top:10px;
@@ -226,6 +328,25 @@ font-family: 'Raleway', sans-serif;
     margin: 0px;
 }
 
+
+footer{
+    padding-left: 70px;
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    height: 225px;
+    padding-right: 25%;
+}
+
+.titredelaboxdufooter{
+    margin-bottom: 20px;
+}
+
+.choixdansfooter{
+    margin-bottom: 12px;
+  
+}
 
 
 h1 {font-family: 'Raleway', sans-serif;
