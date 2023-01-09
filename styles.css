@@ -2,171 +2,193 @@
 body {
     max-width: 1400px;
     background-color: white;
-    padding-left: 55px;
-   
-}
-
-    /* Ce quisuit concerne le header */
-header
-{
-    display: flex;
-    height: 126px;
-    padding-right: 55px;
-    justify-content: space-between;
-}
-
-
-    .booki{
-    position: relative;
-    width: 62px;
-    height: 19px;
-    top: 44px;
+    padding-left: 50px;
+    padding-right: 50px;
     }
 
-    .header1b{
+    /* Ce quisuit concerne le header */
+    header{
+    display: flex;
+    height: 126px;
+    justify-content: space-between;
+    padding-left: 5px;
+    }
+  
+        .header1{
+        padding-top: 44px;
+        }
+
+
+            .booki{
+            width: 61px;
+            height: 19px;
+            }
+
+        .header2{
         display: flex;
         width: 30%;
         justify-content: space-around;
-      }
+       }
 
-    .header1b1{
-    padding-top: 48px;
-}
+            .header2a{
+            padding-top: 48px;
+            }
 
    /* Ce qui suit concerne le bandeau */
-
+.bandeau{
+padding-left: 5px;
+}
 
    .bandeau1{
-    margin-bottom: 8px;
-}
+    /* n'est là que pour la structure*/
+    }
 
+    .bandeau2{
+    margin-top: 8px;
+    }
 
-form{
-    display: flex;
+    .bandeau3{
     margin-top: 20px;
-    height: 49px;
-    margin-bottom: 32px;
     }
 
-.recherche_d_une_ville{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    height: 49px;
-    border-top-color: #D9D9D9;
-    border-bottom-color: #D9D9D9;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-left: none;
-    border-right: none;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    }
+        form{
+        display: flex;
+        height: 49px;
+        }
 
-input::placeholder {
-    opacity: 1;
-    color: black;
-  }
-  
-label{
+            label{
+            display: flex;
+            width: 50px;
+            justify-content: center;
+            background-color: #F2F2F2;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            }
+
+            p i{
+                color: black;
+                font-size: 19px;
+                }
+
+            .recherche_d_une_ville{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            border-top-color: #F2F2F2;
+            border-bottom-color: #F2F2F2;
+            border-top-width: 1px;
+            border-bottom-width: 1px;
+            border-left: none;
+            border-right: none;
+            border-top-style: solid;
+            border-bottom-style: solid;
+            padding-left: 17px;
+            }
+
+            input::placeholder {
+            opacity: 1;
+            color: black;
+            }
+        
+            button{
+            width: 132px;
+            color: white;
+            border-color: #0065FC;
+            background-color: #0065FC;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            text-align: center;
+            }
+
+    .bandeau4{
+    margin-top: 31px;
+    margin-left: 7px;
     display: flex;
-    height: 49px;
-    width: 50px;
-   justify-content: center;
-   align-items: center;
-   background-color: #D9D9D9;
-   border-top-left-radius: 15px;
-   border-bottom-left-radius: 15px;
-}
-
-button{
-    width: 132px;
-    color: white;
-    border-color: #0065FC;
-    background-color: #0065FC;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    height: 49px;
-    border-top-right-radius: 15px;
-   border-bottom-right-radius: 15px;
-}
-
-.bandeau4{
-    width: 68%;
-    display: flex;
+    width: 95%;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 17px;
     height: 50px;
-    justify-content:space-between;
-    margin-bottom: 38px;
-    ;
- 
-}
-.Filtres{
-    display: flex;
-    font-size: 18px;
-    justify-content: center;
-    align-items: center;
-    margin-right: -15px
-}
-
-i{
-    color:#0065FC;
-    width: 24px;
-    font-size: 19px;
-}
-
-.choix{
-    display: flex;
     justify-content: space-between;
+    }
+
+        .Filtres{
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .choix{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-style: solid;
+        border-color:#D9D9D9;
+        border-width: 2px;
+        border-radius: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+
+            i {
+            color: blue;
+            font-size: 19px;
+            }
+
+            .choix_du_filtre{
+            background: none;
+            height: 50px;
+            border: none;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-size: 17px;
+            }
+
+    .bandeau5{
+    margin-top: 35px;
+    display: flex;
+    height: 24px;
     align-items: center;
-    border-style: solid;
-    border-color:#D9D9D9;
-    border-width: 2px;
-    border-radius: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    }
 
-.choix_du_filtre{
-background: none;
-height: 50px;
-border: none;
-font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 17px;
+        .info{
+        display: flex;
+        font-size: 10px;
+        height: 24px;
+        width: 24px;
+        border-style: solid;
+        border-color:#D9D9D9;
+        border-width: 1px;
+        border-radius: 12px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 4px;
+        }
 
-}
+        div i{font-size: 12px;
+        line-height: 19px;}
 
-   /* Ce qui suit concerne le main */
+        .nblogements{
+        margin-left: 11px;
+        }
+
+     /* Ce qui suit concerne la box 1, contenant "hébergements" et "populaires" */
+
+     
+
 .Box1{
+    margin-top: 39px;
     display: flex;
-    
     padding-right: 50px;
     justify-content: space-between;
     width: 100%;
    }
 
-   .Box2{
-    margin-top: 60px;
-    display: flex;
-  
-    padding-right: 50px;
-    justify-content: space-between;
-    width: 100%;
-   }
-
-.exemplesactivites{
-    display: flex;
-    
-    width: 100%;
-}
-
-.lesactivites{
-    width: 100%;
-}
+     
 
     .hebergements {
     background-color: #D9D9D9;
@@ -329,6 +351,28 @@ font-family: 'Raleway', sans-serif;
 }
 
 
+ /* Ce qui suit concerne la box 2, contenant "activités" */
+
+ .Box2{
+    margin-top: 60px;
+    display: flex;
+    padding-right: 50px;
+    justify-content: space-between;
+    width: 100%;
+   }
+
+.exemplesactivites{
+    display: flex;
+    
+    width: 100%;
+}
+
+.lesactivites{
+    width: 100%;
+}
+
+/* Ce qui suit concerne le footer*/
+
 footer{
     padding-left: 70px;
     padding-top: 45px;
@@ -347,6 +391,8 @@ footer{
     margin-bottom: 12px;
   
 }
+
+
 
 
 h1 {font-family: 'Raleway', sans-serif;
