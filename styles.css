@@ -1,6 +1,6 @@
    
 body {
-    max-width: 1400px;
+    width: 1400px;
     background-color: white;
     padding-left: 50px;
     padding-right: 50px;
@@ -107,7 +107,7 @@ padding-left: 5px;
     margin-top: 31px;
     margin-left: 7px;
     display: flex;
-    width: 95%;
+    width: 70%;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 17px;
@@ -153,6 +153,7 @@ padding-left: 5px;
     display: flex;
     height: 24px;
     align-items: center;
+    margin-left: 4px;
     }
 
         .info{
@@ -166,251 +167,259 @@ padding-left: 5px;
         border-radius: 12px;
         justify-content: center;
         align-items: center;
-        margin-left: 4px;
         }
 
-        div i{font-size: 12px;
-        line-height: 19px;}
+        div i{
+        font-size: 12px;
+        line-height: 19px;
+        }
 
         .nblogements{
         margin-left: 11px;
         }
 
-     /* Ce qui suit concerne la box 1, contenant "hébergements" et "populaires" */
-
-     
+/* Ce qui suit concerne la box 1, contenant "hébergements" et "populaires" */
 
 .Box1{
-    margin-top: 39px;
-    display: flex;
-    padding-right: 50px;
-    justify-content: space-between;
-    width: 100%;
-   }
+margin-top: 39px;
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
 
-     
+  /* Ce qui suit concerne la section "hébergements"*/   
 
-    .hebergements {
-    background-color: #D9D9D9;
+    .hebergements{
+    background-color: #F2F2F2;
     padding-top: 42px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 46px;
     width: 60%;
     border-radius: 20px;
-    padding-bottom: 46px;
-    
-}
-
-    .populaires {
-    background-color: #D9D9D9;
-    margin-left: 40px;
-    padding-top: 42px;
-    padding-left: 40px;
-    padding-right: 40px;
-    width: 30%;
-    border-radius: 20px;
-    padding-bottom: 46px;
-    
-}
-
-.hebergementamarseille{
-    padding-bottom: 23px;
-}
-
-.lespluspopulaires{
-    padding-bottom: 23px;
-}
-
-.les_cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     }
 
+        .hebergementamarseille{
+/*N'est là que pour la structuration du CSS*/
+        }
+    
+        .les_cards{
+        margin-top: 23px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+    
+            .card {
+            width: 246px;
+            height: 199px;
+            border-radius: 20px;
+            background-color: white;
+            padding: 5px;
+            margin-bottom: 30px;
+            box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+            }
 
-.card {
-    width: 246px;
-    border-radius: 20px; /* 5px rounded corners */
-    background-color: white;
-    padding: 5px;
-    margin-bottom: 30px;
-}
+                .vignette_hebergement{
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;   
+                margin-bottom: 5px;
+                height: 124px;
+                }
+
+                .nomdugite{
+                margin-top: 4px;
+                margin-left: 11px;
+                line-height: 15px;
+                }
+
+                .tarif{
+                margin-left: 11px;
+                margin-top: 9px;
+                }
+
+                .notation {
+                margin-left: 11px;
+                display: flex;
+                margin-top: 9px;
+                margin-bottom: 11px;
+                }
+
+        .afficherplus{
+        margin-top: 10px;
+        margin-left: 4px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 18;
+        }
+
+    .populaires {
+    background-color: #F2F2F2;
+    margin-left: 40px;
+    padding-top: 42px;
+    padding-left: 37px;
+    padding-right: 40px;
+    width: 25%;
+    border-radius: 20px;
+    }
+
+        .lespluspopulaires{
+/*N'est là que pour la structuration du CSS*/
+        }
        
-.cardpop {
-    display: flex;
-    width: 343px;
-    height: 144px;
-    border-radius: 20px;
-    background-color: white;
-    padding: 5px;
-    margin-bottom: 30px;
-}
+        .lescardspop{
+        margin-top: 26px;
+        display: flex;
+        flex-direction: column;
+        }
 
-.cardactivite {
-    display: flex;
-    flex-direction: column;
-    width: 302px;
-    height: 444px;
-    border-radius: 20px;
-    background-color: white;
-    margin-right: 43px;
-    margin-bottom: 30px;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
-        
-}
+            .cardpop {
+            display: flex;
+            width: 343px;
+            height: 144px;
+            border-radius: 20px;
+            background-color: white;
+            padding: 5px;
+            margin-bottom: 33px;
+            box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+            }
 
-.hebergementpop{
-    display: flex;
-    width: 137px;
-    height: 144px;
-    margin-right: 15px;
-}
-    
-.vignette_hebergementpop{
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-bottom: 5px;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
+                .hebergementpop{
+                display: flex;
+                width: 137px;
+                height: 144px;
+                }
+            
+                    .vignette_hebergementpop{
+                    border-top-left-radius: 15px;
+                    border-bottom-left-radius: 15px;
+                    width: 100%;
+                    object-fit: cover;
+                    }
 
-.activites{
-    height: 409px
-}
+                .descriptifpopulaire{
+                display: flex;
+                flex-direction: column;
+                margin-top: 11px;
+                margin-left: 20px;
+                justify-content: space-between;
+                }
 
-.vignette_activite{
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    margin-bottom: 5px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+                    .descriptifpopulairebox1{
+/*N'est là que pour la structuration du CSS*/
+                    }
+                        .nomdugitepop{
+/*N'est là que pour la structuration du CSS*/   
+                        }
+            
+                        .tarifpopulaire{
+                        margin-top: 7px;
+                        }
+                        
+                    .notationpopulaire{
+                    margin-bottom: 7px;
+                    }
 
-.descriptifpopulaire{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.vignette_hebergement{
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    margin-bottom: 5px;
-    height: 124px;
-}
-
-.nomdugite{
-   margin-top: 4px;
-}
-
-.nomactivite{
-    margin-top: 20px;
-    margin-left: 19px;
-    margin-bottom: 21px;
-}
-
-.tarif{
-    margin-top: 9px;
-}
-
-.tarifpopulaire{
-    margin-top: 7px;
-}
-
-.notation {
-    display: flex;
-    margin-top: 9px;
-    margin-bottom: 11px;
-}
-
-.notationpopulaire{
-    margin-bottom: 6px;
-}
-
-.etoilebleue {
-    color: black;
-}
-
-.fa-star{
-    color: #0065FC;
-}
-
-.star {
-    color: #D9D9D9;
-}
-
-
-.afficherplus{
-    margin-top:10px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18;
-    margin: 0px;
-}
-
-
- /* Ce qui suit concerne la box 2, contenant "activités" */
-
- .Box2{
-    margin-top: 60px;
-    display: flex;
-    padding-right: 50px;
-    justify-content: space-between;
-    width: 100%;
-   }
-
-.exemplesactivites{
-    display: flex;
-    
-    width: 100%;
-}
+/* Ce qui suit concerne la section "activités" */
 
 .lesactivites{
-    width: 100%;
+margin-top: 60px;
+display: flex;
+flex-direction: column;
+width: 100%;
 }
+
+    .exemplesactivites{
+    display: flex;
+    width: 100%;
+    margin-top: 18px;
+    }
+
+        .cardactivite {
+        display: flex;
+        flex-direction: column;
+        width: 302px;
+        height: 445px;
+        border-radius: 20px;
+        background-color: white;
+        margin-right: 43px;
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.1);      
+        }
+
+            .activites{
+            height: 388px
+            }
+
+                .vignette_activite{
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                }
+
+            .nomactivite{
+            display: flex;
+            margin-left: 19px;
+            margin-top: 20px;      
+            }
 
 /* Ce qui suit concerne le footer*/
 
 footer{
-    padding-left: 70px;
-    padding-top: 45px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #F2F2F2;
-    height: 225px;
-    padding-right: 25%;
+margin-top: 61px;
+padding-left: 70px;
+padding-top: 45px;
+display: flex;
+justify-content: space-between;
+background-color: #F2F2F2;
+height: 225px;
+padding-right: 25%;
 }
 
-.titredelaboxdufooter{
+    .titredelaboxdufooter{
     margin-bottom: 20px;
-}
+    }
 
-.choixdansfooter{
+    .choixdansfooter{
     margin-bottom: 12px;
-  
+    }
+
+/* Ce qui suit est valable pour plusieurs sections */
+.fa-star{
+color: #0065FC;
 }
-
-
-
+    
+.star {
+color: #F2F2F2;
+}
 
 h1 {font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 22px;
-    margin: 0px;
-           }
+font-weight: 700;
+font-size: 22px;
+margin: 0px;
+}
 
 h2 {font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    margin: 0;
-        }
+font-weight: 400;
+font-size: 14px;
+margin: 0;
+}
 
- h3 {font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    margin: 0;
-        }    
+h3 {font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 16px;
+margin: 0;
+}    
 
+h4 {font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 16px;
+margin: 0;
+}
 
+h5 {font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 18px;
+margin: 0;
+}
