@@ -29,6 +29,10 @@ body {
         justify-content: space-around;
        }
 
+            #navigation{
+            display: flex;
+            }
+
             .header2a{
             padding-top: 48px;
             font-family: 'Raleway', sans-serif;
@@ -284,8 +288,11 @@ width: 100%;
     }
 
         .lespluspopulaires{
-/*N'est là que pour la structuration du CSS*/
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         }
+
        
         .lescardspop{
         margin-top: 26px;
@@ -404,6 +411,22 @@ padding-right: 25%;
     .choixdansfooter{
     margin-bottom: 12px;
     }
+    ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    }
+
+    li{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+    color: black;
+    margin-bottom: 12px;
+    }
+
+
 
 /* Ce qui suit est valable pour plusieurs sections */
 .fa-star{
@@ -416,6 +439,11 @@ color: #F2F2F2;
 
 .fa-location-dot{
 color: black;
+}
+
+.fa-chart-line{
+width: 18px;
+height: 16px;
 }
 
 h1 {font-family: 'Raleway', sans-serif;
@@ -454,11 +482,13 @@ margin: 0;
 }
 
 a{
-    text-decoration: none;
-    margin: none;
+text-decoration: none;
+margin: none;
+color: black;
 }
 
 p{
 margin: 0px;
 line-height: 16px;
 }
+
