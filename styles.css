@@ -37,6 +37,8 @@ body {
             width: 162px;
             margin: 0;
             text-align: center;
+            color: black;
+            height: 100%;
             }
 
             .header2a:hover{
@@ -44,7 +46,7 @@ body {
             font-weight: 500;
             border-top-style: solid;
             border-top-width: 2px;
-            padding-top: 46px;
+            padding-top: 47px;
             }
 
    /* Ce qui suit concerne le bandeau */
@@ -73,6 +75,7 @@ padding-left: 5px;
             display: flex;
             width: 50px;
             justify-content: center;
+            align-items: center;
             background-color: #F2F2F2;
             border-top-left-radius: 15px;
             border-bottom-left-radius: 15px;
@@ -103,7 +106,7 @@ padding-left: 5px;
             color: black;
             }
         
-            button{
+            .button{
             width: 132px;
             color: white;
             border-color: #0065FC;
@@ -147,6 +150,9 @@ padding-left: 5px;
         padding-right: 20px;
         }
 
+        .choix:hover{
+        background-color: #DEEBFF;
+        }
             i {
             color: blue;
             font-size: 19px;
@@ -193,7 +199,7 @@ padding-left: 5px;
 
 /* Ce qui suit concerne la box 1, contenant "hébergements" et "populaires" */
 
-.Box1{
+.Box{
 margin-top: 39px;
 display: flex;
 justify-content: space-between;
@@ -408,21 +414,28 @@ color: #0065FC;
 color: #F2F2F2;
 }
 
+.fa-location-dot{
+color: black;
+}
+
 h1 {font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 22px;
 margin: 0px;
+color: black;
 }
 
 h2 {font-family: 'Raleway', sans-serif;
 font-weight: 400;
 font-size: 14px;
 margin: 0;
+color: black;
 }
 
 h3 {font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 16px;
+color: black;
 margin: 0;
 }    
 
@@ -430,10 +443,22 @@ h4 {font-family: 'Raleway', sans-serif;
 font-weight: 400;
 font-size: 16px;
 margin: 0;
+color: black;
 }
 
 h5 {font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 18px;
+color: black;
 margin: 0;
+}
+
+a{
+    text-decoration: none;
+    margin: none;
+}
+
+p{
+margin: 0px;
+line-height: 16px;
 }
