@@ -1,177 +1,176 @@
-   
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cadre {
+    border: solid 1px red;
+}   
+
 body {
-    width: 1400px;
+    max-width: 1440px;
     background-color: white;
     padding-left: 50px;
     padding-right: 50px;
-    }
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: black;
+}
 
-    /* Ce quisuit concerne le header */
-    header{
+/* Ce quisuit concerne le header */
+header {
     display: flex;
-    height: 126px;
     justify-content: space-between;
+    height: 126px;
     padding-left: 5px;
     }
-  
-        .header1{
-        padding-top: 44px;
-        }
 
-            .booki{
+header img {
+    width: 61px;
+    height: 19px;
+    margin-top: 44px; 
+}
+
+        /* .header1{
+        padding-top: 44px;
+        } */
+
+            /* .booki{
             width: 61px;
             height: 19px;
-            }
+            } */
 
-        .header2{
+        /* .header2{
         display: flex;
         width: 30%;
         justify-content: space-around;
-       }
+       } */
 
-            #navigation{
-            display: flex;
-            }
+header nav {
+    display: flex;
+}
 
-            .header2a{
-            padding-top: 48px;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 400;
-            font-size: 14px;
-            width: 162px;
-            margin: 0;
-            text-align: center;
-            color: black;
-            height: 100%;
-            }
+header nav a {
+    padding-top: 46px;
+    font-size: 1em;
+    font-weight: 500;    
+    width: 10.125em;
+    text-align: center;
+    border-top: solid 2px transparent;
+}
 
-            .header2a:hover{
-            color: #0065FC;
-            font-weight: 500;
-            border-top-style: solid;
-            border-top-width: 2px;
-            padding-top: 47px;
-            }
+header nav a:hover {
+    color: #0065FC;
+    border-top: solid 2px #0065FC;
+}
 
    /* Ce qui suit concerne le bandeau */
 .bandeau{
 padding-left: 5px;
 }
+ 
+.bandeau h1{
+    margin-bottom: 8px;
+}
 
-   .bandeau1{
-/* n'est là que pour la structure*/
-    }
-
-    .bandeau2{
-    margin-top: 8px;
-    }
-
-    .bandeau3{
+    form{
     margin-top: 20px;
-    }
-
-        form{
-        display: flex;
-        height: 49px;
-        }
-
-            label{
-            display: flex;
-            width: 50px;
-            justify-content: center;
-            align-items: center;
-            background-color: #F2F2F2;
-            border-top-left-radius: 15px;
-            border-bottom-left-radius: 15px;
-            }
-
-            p i{
-                color: black;
-                font-size: 19px;
-                }
-
-            .recherche_d_une_ville{
-            font-family: 'Raleway', sans-serif;
-            font-weight: 700;
-            font-size: 18px;
-            border-top-color: #F2F2F2;
-            border-bottom-color: #F2F2F2;
-            border-top-width: 1px;
-            border-bottom-width: 1px;
-            border-left: none;
-            border-right: none;
-            border-top-style: solid;
-            border-bottom-style: solid;
-            padding-left: 17px;
-            }
-
-            input::placeholder {
-            opacity: 1;
-            color: black;
-            }
-        
-            .button{
-            width: 132px;
-            color: white;
-            border-color: #0065FC;
-            background-color: #0065FC;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 700;
-            font-size: 18px;
-            border-top-right-radius: 15px;
-            border-bottom-right-radius: 15px;
-            text-align: center;
-            }
-
-    .bandeau4{
-    margin-top: 31px;
-    margin-left: 7px;
     display: flex;
-    width: 70%;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-    height: 50px;
-    justify-content: space-between;
+    height: 49px;
     }
 
-        .Filtres{
+        label{
         display: flex;
-        font-size: 18px;
+        width: 3.125em;
         justify-content: center;
         align-items: center;
+        background-color: #F2F2F2;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
         }
 
-        .choix{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-style: solid;
-        border-color:#D9D9D9;
-        border-width: 2px;
-        border-radius: 25px;
-        padding-left: 20px;
-        padding-right: 20px;
+        .fa-location-dot{
+        font-size: 1.125em;
+        color: black;
         }
 
-        .choix:hover{
+    .recherche_d_une_ville{
+    width: 13.625;
+    font-weight: 700;
+    font-size: 1.125em;
+    border-top-color: #F2F2F2;
+    border-bottom-color: #F2F2F2;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    padding-left: 1.063em;
+    }
+            
+        .button{
+        width: 8.25em;
+        color: white;
+        border-color: #0065FC;
+        background-color: #0065FC;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 1.125em;
+        border-top-right-radius: 0.938em;
+        border-bottom-right-radius: 0.938em;
+        text-align: center;
+        }
+
+    .bandeau nav{
+    margin-top: 32px;
+    margin-left: 0.438em;
+    display: flex;
+    width: 63%;
+    font-weight: 700;
+    font-size: 1.063em;
+    height: 50px;
+    align-items: center ;
+    }
+   
+        ul{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            height: 100%;
+            margin-left: 2em;
+            }
+
+        li{
+            display: flex;
+            padding-left: 20px;
+            padding-right: 20px;
+            align-items: center;
+            border-style: solid;
+            border-color:#D9D9D9;
+            border-width: 0.125em;
+            border-radius: 1.563em;
+            
+        }
+        
+        li .fa-solid{
+            margin-right: 10px;
+        }
+
+        li:hover{
         background-color: #DEEBFF;
         }
-            i {
-            color: blue;
-            font-size: 19px;
-            }
 
-            .choix_du_filtre{
-            background: none;
-            height: 50px;
-            border: none;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 700;
-            font-size: 17px;
-            }
+        i {
+        color: blue;
+        font-size: 19px;
+        }
 
-    .bandeau5{
+
+    .bandeau div{
     margin-top: 35px;
     display: flex;
     height: 24px;
@@ -411,13 +410,13 @@ padding-right: 25%;
     .choixdansfooter{
     margin-bottom: 12px;
     }
-    ul{
+    footer ul{
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     }
 
-    li{
+    footer li{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -437,19 +436,18 @@ color: #0065FC;
 color: #F2F2F2;
 }
 
-.fa-location-dot{
-color: black;
-}
+
 
 .fa-chart-line{
 width: 18px;
 height: 16px;
 }
 
-h1 {font-family: 'Raleway', sans-serif;
+h1 {
 font-weight: 700;
-font-size: 22px;
-margin: 0px;
+font-size: 1.375em;
+}
+
 color: black;
 }
 
