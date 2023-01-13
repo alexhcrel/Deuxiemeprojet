@@ -10,6 +10,7 @@
 }   
 
 body {
+    min-width: 992px;
     max-width: 1440px;
     background-color: white;
     padding-left: 50px;
@@ -32,26 +33,11 @@ header img {
     width: 61px;
     height: 19px;
     margin-top: 44px; 
-}
-
-        /* .header1{
-        padding-top: 44px;
-        } */
-
-            /* .booki{
-            width: 61px;
-            height: 19px;
-            } */
-
-        /* .header2{
-        display: flex;
-        width: 30%;
-        justify-content: space-around;
-       } */
+    }
 
 header nav {
     display: flex;
-}
+    }
 
 header nav a {
     padding-top: 46px;
@@ -60,21 +46,21 @@ header nav a {
     width: 10.125em;
     text-align: center;
     border-top: solid 2px transparent;
-}
+    }
 
 header nav a:hover {
     color: #0065FC;
     border-top: solid 2px #0065FC;
-}
+    }
 
    /* Ce qui suit concerne le bandeau */
 .bandeau{
-padding-left: 5px;
+padding-left: 0.385%;
 }
  
 .bandeau h1{
     margin-bottom: 8px;
-}
+    }
 
     form{
     margin-top: 20px;
@@ -97,27 +83,26 @@ padding-left: 5px;
         color: black;
         }
 
-    .recherche_d_une_ville{
-    width: 13.625;
-    font-weight: 700;
-    font-size: 1.125em;
-    border-top-color: #F2F2F2;
-    border-bottom-color: #F2F2F2;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-left: none;
-    border-right: none;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    padding-left: 1.063em;
-    }
+        .recherche_d_une_ville{
+        width: 16.61%;
+        font-weight: 700;
+        font-size: 1.125em;
+        border-top-color: #F2F2F2;
+        border-bottom-color: #F2F2F2;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        border-left: none;
+        border-right: none;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        padding-left: 1%;
+        }
             
         .button{
-        width: 8.25em;
+        width: 10.15%;
         color: white;
         border-color: #0065FC;
         background-color: #0065FC;
-        font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 1.125em;
         border-top-right-radius: 0.938em;
@@ -127,86 +112,79 @@ padding-left: 5px;
 
     .bandeau nav{
     margin-top: 32px;
-    margin-left: 0.438em;
+    margin-left: 0.54%;
     display: flex;
-    width: 63%;
+    width: 70.3%;
     font-weight: 700;
-    font-size: 1.063em;
+    font-size: 18px;
     height: 50px;
     align-items: center ;
     }
    
         ul{
             display: flex;
-            width: 100%;
             justify-content: space-between;
+            width: 100%;
             height: 100%;
-            margin-left: 2em;
+            margin-left: 3.5%;
             }
 
         li{
             display: flex;
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 2.2%;
+            padding-right: 2.2%;
             align-items: center;
             border-style: solid;
             border-color:#D9D9D9;
             border-width: 0.125em;
             border-radius: 1.563em;
-            
-        }
+            font-size: 17px;
+            justify-content: space-between;
+            white-space: nowrap;
+            }
         
         li .fa-solid{
-            margin-right: 10px;
-        }
+            margin-right: 0.625em;
+            font-size: 1.125em;
+            color: blue;
+            }
 
         li:hover{
         background-color: #DEEBFF;
         }
 
-        i {
-        color: blue;
-        font-size: 19px;
-        }
-
-
-    .bandeau div{
+    .info{
     margin-top: 35px;
     display: flex;
     height: 24px;
+    margin-left: 0.25em;
     align-items: center;
-    margin-left: 4px;
     }
 
-        .info{
-        display: flex;
-        font-size: 10px;
-        height: 24px;
-        width: 24px;
-        border-style: solid;
-        border-color:#D9D9D9;
-        border-width: 1px;
-        border-radius: 12px;
-        justify-content: center;
-        align-items: center;
-        }
+    .info div{
+    display: flex;
+    margin-right: 0.85%;
+    height: 24px;
+    width: 24px;
+    border-style: solid;
+    border-color:#D9D9D9;
+    border-width: 1px;
+    border-radius: 12px;
+    font-size: 0.63em;
+    justify-content: center;
+    align-items: center;
+    }
 
-        div i{
-        font-size: 12px;
-        line-height: 19px;
-        }
+    
 
-        .nblogements{
-        margin-left: 11px;
-        }
 
 /* Ce qui suit concerne la box 1, contenant "hébergements" et "populaires" */
 
 .Box{
-margin-top: 39px;
+margin-top: 19px;
 display: flex;
 justify-content: space-between;
-width: 100%;
+font-size: 14px;
 }
 
   /* Ce qui suit concerne la section "hébergements"*/   
@@ -214,19 +192,17 @@ width: 100%;
     .hebergements{
     background-color: #F2F2F2;
     padding-top: 42px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 4.5%;
+    padding-right: 4.5%;
     padding-bottom: 46px;
-    width: 60%;
+    width: 66%;
     border-radius: 20px;
     }
 
-        .hebergementamarseille{
-/*N'est là que pour la structuration du CSS*/
-        }
-    
+
         .les_cards{
         margin-top: 23px;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -235,7 +211,7 @@ width: 100%;
             .card {
             width: 246px;
             height: 199px;
-            border-radius: 20px;
+            border-radius: 15px;
             background-color: white;
             padding: 5px;
             margin-bottom: 30px;
@@ -245,28 +221,20 @@ width: 100%;
                 .vignette_hebergement{
                 border-top-left-radius: 15px;
                 border-top-right-radius: 15px;   
-                margin-bottom: 5px;
                 height: 124px;
-                width: 15%;
                 }
 
-                .nomdugite{
+                a h2{
+                margin-top: 9px;
+                margin-left: 11px;
+             }
+
+                a h3{
                 margin-top: 4px;
                 margin-left: 11px;
                 line-height: 15px;
                 }
 
-                .tarif{
-                margin-left: 11px;
-                margin-top: 9px;
-                }
-
-                .notation {
-                margin-left: 11px;
-                display: flex;
-                margin-top: 9px;
-                margin-bottom: 11px;
-                }
 
         .afficherplus{
         margin-top: 10px;
@@ -282,7 +250,7 @@ width: 100%;
     padding-top: 42px;
     padding-left: 37px;
     padding-right: 40px;
-    width: 25%;
+    width: 31%;
     border-radius: 20px;
     }
 
@@ -448,22 +416,19 @@ font-weight: 700;
 font-size: 1.375em;
 }
 
+h2 {font-size: 1em;
 color: black;
-}
 
-h2 {font-family: 'Raleway', sans-serif;
-font-weight: 400;
-font-size: 14px;
-margin: 0;
-color: black;
-}
+}   
 
 h3 {font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 16px;
-color: black;
+font-weight: 400;
+font-size: 0.875em;
 margin: 0;
-}    
+color: black;
+}
+
+
 
 h4 {font-family: 'Raleway', sans-serif;
 font-weight: 400;
