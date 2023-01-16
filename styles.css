@@ -10,16 +10,14 @@
 }   
 
 body {
-    min-width: 992px;
-    max-width: 1440px;
+    max-width: 1400px;
     background-color: white;
     padding-left: 50px;
     padding-right: 50px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 1em;
-    color: black;
-}
+    }
 
 /* Ce quisuit concerne le header */
 header {
@@ -181,7 +179,7 @@ padding-left: 0.385%;
 /* Ce qui suit concerne la box 1, contenant "hébergements" et "populaires" */
 
 .Box{
-margin-top: 19px;
+margin-top: 39px;
 display: flex;
 justify-content: space-between;
 font-size: 0.875em;
@@ -433,3 +431,62 @@ p{
 margin: 0px;
 }
 
+
+/* media queries */
+
+@media screen and (max-width: 992px){
+h1{
+    background-color: green;
+}
+
+body{
+    padding-left: 72px;
+    padding-right: 72px;
+    font-weight: 400;
+    font-size: 1em;
+    
+   }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 121px;
+    }
+
+     header nav a {
+    font-weight: 500;    
+    width: 10.125em;
+    text-align: center;
+    border-top: solid 2px transparent;
+    }
+    
+        header nav a:hover {
+        color: black;
+        border-top: solid 2px transparent;
+            }
+    
+    .bandeau h1{
+     margin-bottom: 13px;
+    }
+      
+    .bandeau nav{
+        width: 96.1%;
+        }
+
+    li:hover{
+    background-color: white;
+    }
+
+
+    .Box{
+        margin-top: 39px;
+         flex-direction: column;
+        }
+
+
+        .hebergements{
+        width: 100%;
+        }
+    
+
+}
