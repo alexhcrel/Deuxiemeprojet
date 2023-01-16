@@ -121,7 +121,7 @@ padding-left: 0.385%;
     align-items: center ;
     }
    
-        ul{
+        .bandeau ul{
             display: flex;
             justify-content: space-between;
             width: 100%;
@@ -129,7 +129,7 @@ padding-left: 0.385%;
             margin-left: 3.5%;
             }
 
-        li{
+        .bandeau li{
             display: flex;
             padding-left: 2.2%;
             padding-right: 2.2%;
@@ -184,7 +184,7 @@ padding-left: 0.385%;
 margin-top: 19px;
 display: flex;
 justify-content: space-between;
-font-size: 14px;
+font-size: 0.875em;
 }
 
   /* Ce qui suit concerne la section "hébergements"*/   
@@ -192,84 +192,89 @@ font-size: 14px;
     .hebergements{
     background-color: #F2F2F2;
     padding-top: 42px;
-    padding-left: 4.5%;
-    padding-right: 4.5%;
+    padding-left: 3.1%;
+    padding-right: 3.1%;
     padding-bottom: 46px;
     width: 66%;
     border-radius: 20px;
     }
-
 
         .les_cards{
         margin-top: 23px;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
         }
-    
+
             .card {
+            display: flex;
+            flex-direction: column;
             width: 246px;
             height: 199px;
-            border-radius: 15px;
+            border-radius: 20px;
             background-color: white;
             padding: 5px;
-            margin-bottom: 30px;
             box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
             }
             
                 .vignette_hebergement{
                 border-top-left-radius: 15px;
                 border-top-right-radius: 15px;   
-                height: 124px;
+                height: 114px;
                 }
 
-                a h2{
+                .card h2{
                 margin-top: 9px;
-                margin-left: 11px;
-             }
-
-                a h3{
-                margin-top: 4px;
-                margin-left: 11px;
-                line-height: 15px;
+                margin-left: 0.688em;
+                }         
+               
+                .card p{
+                margin-top: 9px;
+                margin-left: 0.688em;
                 }
 
+                .card div{
+                margin-left: 0.688em;
+                margin-top: 9px;
+                }
+              
 
         .afficherplus{
         margin-top: 10px;
-        margin-left: 4px;
-        font-family: 'Raleway', sans-serif;
+        margin-left: 0.25em;
         font-weight: 700;
-        font-size: 18;
+        font-size: 1.125em;
         }
 
     .populaires {
     background-color: #F2F2F2;
-    margin-left: 40px;
     padding-top: 42px;
-    padding-left: 37px;
-    padding-right: 40px;
+    padding-left: 2.8%;
+    padding-right: 3%;
     width: 31%;
     border-radius: 20px;
     }
 
-        .lespluspopulaires{
+        .row1{
         display: flex;
         justify-content: space-between;
         align-items: center;
         }
 
+        .fa-chart-line{
+        color: #0065FC;
+        }
        
         .lescardspop{
         margin-top: 26px;
-        display: flex;
-        flex-direction: column;
+        width: 100%;
         }
 
             .cardpop {
             display: flex;
-            width: 343px;
+            width: 100%;
             height: 144px;
             border-radius: 20px;
             background-color: white;
@@ -278,20 +283,15 @@ font-size: 14px;
             box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
             }
 
-                .hebergementpop{
-                display: flex;
-                width: 137px;
-                height: 144px;
-                }
-            
                     .vignette_hebergementpop{
                     border-top-left-radius: 15px;
                     border-bottom-left-radius: 15px;
-                    width: 100%;
+                    width: 132px;
+                    height: 134px;
                     object-fit: cover;
                     }
 
-                .descriptifpopulaire{
+                .descriptif{
                 display: flex;
                 flex-direction: column;
                 margin-top: 11px;
@@ -299,96 +299,78 @@ font-size: 14px;
                 justify-content: space-between;
                 }
 
-                    .descriptifpopulairebox1{
-/*N'est là que pour la structuration du CSS*/
-                    }
-                        .nomdugitepop{
-/*N'est là que pour la structuration du CSS*/   
-                        }
-            
-                        .tarifpopulaire{
-                        margin-top: 7px;
-                        }
-                        
-                    .notationpopulaire{
-                    margin-bottom: 7px;
-                    }
+                .notationpop{
+                margin-top: 44px;
+                }
 
+                
+
+
+                        
+                
 /* Ce qui suit concerne la section "activités" */
 
 .lesactivites{
 margin-top: 60px;
-display: flex;
-flex-direction: column;
 width: 100%;
 }
 
-    .exemplesactivites{
+    .lescardsactiv{
     display: flex;
+    justify-content: space-between;
     width: 100%;
     margin-top: 18px;
     }
 
-        .cardactivite {
+    .lescardsactiv a{
+        width:23%;
+    }  
+
+    .cardactivite {
         display: flex;
         flex-direction: column;
-        width: 302px;
+        width: 100%;
         height: 445px;
         border-radius: 20px;
-        background-color: white;
-        margin-right: 43px;
         box-shadow: 0px 5px 10px rgba(0,0,0,0.1);      
         }
-
-            .activites{
-            height: 388px
-            }
 
                 .vignette_activite{
                 border-top-left-radius: 20px;
                 border-top-right-radius: 20px;
                 width: 100%;
-                height: 100%;
+                height: 389px;
                 object-fit: cover;
                 }
 
-            .nomactivite{
-            display: flex;
-            margin-left: 19px;
-            margin-top: 20px;      
-            }
+                .cardactivite h2{
+                display: flex;
+                margin-left: 19px;
+                margin-top: 20px;   
+                }
+
 
 /* Ce qui suit concerne le footer*/
 
 footer{
-margin-top: 61px;
-padding-left: 70px;
-padding-top: 45px;
 display: flex;
+margin-top: 61px;
+padding-top: 45px;
+padding-left: 5.4%;
+padding-right: 26.4%;
 justify-content: space-between;
 background-color: #F2F2F2;
 height: 225px;
-padding-right: 25%;
 }
 
-    .titredelaboxdufooter{
-    margin-bottom: 20px;
-    }
-
-    .choixdansfooter{
-    margin-bottom: 12px;
-    }
     footer ul{
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    margin-top: 20px;
     }
 
     footer li{
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    margin: 0px;
     color: black;
     margin-bottom: 12px;
     }
@@ -398,13 +380,12 @@ padding-right: 25%;
 /* Ce qui suit est valable pour plusieurs sections */
 .fa-star{
 color: #0065FC;
+font-size: 0.75em;
 }
     
 .star {
 color: #F2F2F2;
 }
-
-
 
 .fa-chart-line{
 width: 18px;
@@ -417,18 +398,16 @@ font-size: 1.375em;
 }
 
 h2 {font-size: 1em;
+font-weight: 700;
 color: black;
-
 }   
 
-h3 {font-family: 'Raleway', sans-serif;
-font-weight: 400;
-font-size: 0.875em;
+h3 {
+font-weight: 700;
+font-size: 1.125em;
 margin: 0;
 color: black;
 }
-
-
 
 h4 {font-family: 'Raleway', sans-serif;
 font-weight: 400;
@@ -452,6 +431,5 @@ color: black;
 
 p{
 margin: 0px;
-line-height: 16px;
 }
 
