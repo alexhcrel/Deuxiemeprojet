@@ -12,11 +12,11 @@
 body {
     max-width: 1400px;
     background-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 1em;
+    font: 1em;
     }
 
 /* Ce quisuit concerne le header */
@@ -34,14 +34,15 @@ header img {
     }
 
 header nav {
-    display: flex;
-    }
+display: grid;
+ grid-template-columns: 162px 136px;
+ justify-content: space-around;
+}
 
 header nav a {
     padding-top: 46px;
     font-size: 1em;
     font-weight: 500;    
-    width: 10.125em;
     text-align: center;
     border-top: solid 2px transparent;
     }
@@ -53,7 +54,7 @@ header nav a:hover {
 
    /* Ce qui suit concerne le bandeau */
 .bandeau{
-padding-left: 0.385%;
+padding-left: 5px;
 }
  
 .bandeau h1{
@@ -68,55 +69,47 @@ padding-left: 0.385%;
 
         label{
         display: flex;
-        width: 3.125em;
+        width: 50px;
         justify-content: center;
         align-items: center;
         background-color: #F2F2F2;
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
-        }
-
-        .fa-location-dot{
         font-size: 1.125em;
-        color: black;
         }
 
         .recherche_d_une_ville{
-        width: 16.61%;
+        width: 236px;
         font-weight: 700;
         font-size: 1.125em;
-        border-top-color: #F2F2F2;
-        border-bottom-color: #F2F2F2;
-        border-top-width: 1px;
-        border-bottom-width: 1px;
+        border-bottom: solid 1px #f2f2f2;
+        border-top: solid 1px #f2f2f2;
         border-left: none;
         border-right: none;
-        border-top-style: solid;
-        border-bottom-style: solid;
-        padding-left: 1%;
+        padding-left: 17px;
         }
             
         .button{
-        width: 10.15%;
+        width: 132px;
         color: white;
         border-color: #0065FC;
         background-color: #0065FC;
         font-weight: 700;
         font-size: 1.125em;
-        border-top-right-radius: 0.938em;
-        border-bottom-right-radius: 0.938em;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
         text-align: center;
         }
 
     .bandeau nav{
     margin-top: 32px;
-    margin-left: 0.54%;
+    margin-left: 7px;
     display: flex;
     width: 70.3%;
     font-weight: 700;
     font-size: 18px;
     height: 50px;
-    align-items: center ;
+    align-items: center;
     }
    
         .bandeau ul{
@@ -129,8 +122,8 @@ padding-left: 0.385%;
 
         .bandeau li{
             display: flex;
-            padding-left: 2.2%;
-            padding-right: 2.2%;
+            padding-left: 20px;
+            padding-right: 20px;
             align-items: center;
             border-style: solid;
             border-color:#D9D9D9;
@@ -142,7 +135,7 @@ padding-left: 0.385%;
             }
         
         li .fa-solid{
-            margin-right: 0.625em;
+            margin-right: 10px;
             font-size: 1.125em;
             color: blue;
             }
@@ -154,20 +147,17 @@ padding-left: 0.385%;
     .info{
     margin-top: 35px;
     display: flex;
-    height: 24px;
-    margin-left: 0.25em;
+    margin-left: 4px;
     align-items: center;
     }
 
     .info div{
     display: flex;
-    margin-right: 0.85%;
+    margin-right: 11px;
     height: 24px;
     width: 24px;
-    border-style: solid;
-    border-color:#D9D9D9;
-    border-width: 1px;
-    border-radius: 12px;
+    border: solid 1px #d9d9d9;
+    border-radius: 50%;
     font-size: 0.63em;
     justify-content: center;
     align-items: center;
@@ -182,7 +172,6 @@ padding-left: 0.385%;
 margin-top: 39px;
 display: flex;
 justify-content: space-between;
-font-size: 0.875em;
 }
 
   /* Ce qui suit concerne la section "hébergements"*/   
@@ -190,8 +179,8 @@ font-size: 0.875em;
     .hebergements{
     background-color: #F2F2F2;
     padding-top: 42px;
-    padding-left: 3.1%;
-    padding-right: 3.1%;
+    padding-left: 3%;
+    padding-right: 3%;
     padding-bottom: 46px;
     width: 66%;
     border-radius: 20px;
@@ -202,7 +191,7 @@ font-size: 0.875em;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         }
 
             .card {
@@ -225,23 +214,26 @@ font-size: 0.875em;
 
                 .card h2{
                 margin-top: 9px;
-                margin-left: 0.688em;
+                margin-left: 11px;
+                
                 }         
                
                 .card p{
                 margin-top: 9px;
-                margin-left: 0.688em;
+                margin-left: 11px;
+                
                 }
 
                 .card div{
-                margin-left: 0.688em;
+                line-height: 12px;
+                margin-left: 11px;
                 margin-top: 9px;
                 }
               
 
         .afficherplus{
         margin-top: 10px;
-        margin-left: 0.25em;
+        margin-left: 4px;
         font-weight: 700;
         font-size: 1.125em;
         }
@@ -249,8 +241,8 @@ font-size: 0.875em;
     .populaires {
     background-color: #F2F2F2;
     padding-top: 42px;
-    padding-left: 2.8%;
-    padding-right: 3%;
+    padding-left: 37px;
+    padding-right: 40px;
     width: 31%;
     border-radius: 20px;
     }
@@ -281,25 +273,32 @@ font-size: 0.875em;
             box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
             }
 
-                    .vignette_hebergementpop{
-                    border-top-left-radius: 15px;
-                    border-bottom-left-radius: 15px;
-                    width: 132px;
-                    height: 134px;
-                    object-fit: cover;
-                    }
+                .vignette_hebergementpop{
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 15px;
+                width: 127px;
+                height: auto;
+                object-fit: cover;
+                }
 
                 .descriptif{
                 display: flex;
                 flex-direction: column;
+                width: 100%;
                 margin-top: 11px;
                 margin-left: 20px;
                 justify-content: space-between;
                 }
 
-                .notationpop{
-                margin-top: 44px;
+                .descriptif h2{
+                margin-bottom: 7px;
                 }
+
+                .notationpop{
+                    margin-bottom: 7px;
+                }
+
+               
 
                 
 
@@ -393,11 +392,15 @@ height: 16px;
 h1 {
 font-weight: 700;
 font-size: 1.375em;
+line-height: 26px;
+margin: 0px;
 }
 
 h2 {font-size: 1em;
 font-weight: 700;
 color: black;
+margin: 0px;
+line-height: 15px;
 }   
 
 h3 {
@@ -429,6 +432,8 @@ color: black;
 
 p{
 margin: 0px;
+font-size: 0.875em;
+line-height: 15px;
 }
 
 
@@ -440,53 +445,90 @@ h1{
 }
 
 body{
-    padding-left: 72px;
-    padding-right: 72px;
-    font-weight: 400;
-    font-size: 1em;
-    
+    padding-left: 56px;
+    padding-right: 56px;   
    }
 
 header{
-    display: flex;
-    justify-content: space-between;
     height: 121px;
     }
 
-     header nav a {
-    font-weight: 500;    
-    width: 10.125em;
-    text-align: center;
-    border-top: solid 2px transparent;
-    }
+header nav a:hover {
+border-bottom: solid 2px #0065FC;
+border-top: solid 2px transparent;
+}
     
-        header nav a:hover {
-        color: black;
-        border-top: solid 2px transparent;
-            }
-    
-    .bandeau h1{
-     margin-bottom: 13px;
+.bandeau h1{
+margin-bottom: 13px;
     }
       
+form{
+margin-left: 2px;
+}
+
     .bandeau nav{
         width: 96.1%;
         }
 
-    li:hover{
-    background-color: white;
+    .bandeau ul{
+    margin-left: 2%;
     }
 
+    .info{     
+        margin-left: 0px;
+        }
+    
 
     .Box{
         margin-top: 39px;
-         flex-direction: column;
+        flex-direction: column;
         }
-
 
         .hebergements{
         width: 100%;
         }
     
+        .populaires{
+        width: 100%;
+        margin-top: 53px;
+        padding-left: 40px; 
+        padding-top: 34px;
+        }
 
+        .lescardspop{
+        display: flex;
+        padding-bottom: 48px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        }
+
+        .cardpop {
+            width: 252px;
+            box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+            }
+
+            .vignette_hebergementpop{
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 15px;
+                width: 96px;
+                height: auto;
+                object-fit: cover;
+                }
+
+            .descriptif{
+            display: flex;
+            flex-direction: column;
+            margin-top: 7px;
+            }
+            
+            .descriptif h2{
+            font-size: 14px;
+            margin-right: 20px;}
+
+            .descriptif p{font-size: 13px;
+            margin-top: 7px;}
+            
+
+
+            
 }
