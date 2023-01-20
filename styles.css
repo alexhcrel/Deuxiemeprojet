@@ -62,7 +62,7 @@ padding-left: 5px;
     }
 
     form{
-    margin-top: 20px;
+    margin-top: 36px;
     display: flex;
     height: 49px;
     }
@@ -98,8 +98,25 @@ padding-left: 5px;
         font-size: 1.125em;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
-        text-align: center;
+        
         }
+
+        .loupe{
+        display: none;
+        width: 49px;
+        color: white;
+        border-color: #0065FC;
+        background-color: #0065FC;
+        font-weight: 700;
+        font-size: 1.125em;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        justify-content: center;
+        align-items: center;
+        }
+
+            
+
 
     .bandeau nav{
     margin-top: 32px;
@@ -447,7 +464,7 @@ line-height: 15px;
 }
 
 
-/* media queries */
+/* media queries tablette*/
 
 @media screen and (max-width: 992px){
 h1{
@@ -565,4 +582,83 @@ padding-right: 19.7%;
 }
 
                 
-}                
+}
+
+
+/* media queries mobile*/
+
+
+@media screen and (max-width: 768px){
+    h1{
+        background-color: pink;
+    }
+
+
+    body {
+        padding: 0px 0px 0px 0px;
+        margin: 0px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: 132px;
+        padding-left: 0px;
+        }
+
+header img {
+    margin-top: 21px; 
+    }
+
+    header nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 25px;
+        }
+        
+        header nav a {
+            padding-top: 23px;
+            padding-bottom: 23px;
+            width: 100%;
+            font-size: 1em;
+            font-weight: 500;
+            border-bottom: solid 2px transparent;
+            border-top: none;
+            }
+        
+        header nav a:hover {
+            color: #0065FC;
+            border-bottom: solid 3px #0065FC;
+            border-top: none;
+            }
+
+
+.bandeau{
+padding-left: 20px;
+padding-right: 20px;
+}
+                 
+.bandeau h1{
+margin-bottom: 13px;
+}
+
+form{
+    margin-top: 36px;
+    }
+
+    .recherche_d_une_ville{
+        width: 182px;
+        }
+            
+        .button{
+        display: none;
+        }
+
+.loupe{
+    display: flex;
+}
+
+
+    }
+
