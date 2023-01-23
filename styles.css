@@ -183,7 +183,9 @@ padding-left: 5px;
     align-items: center;
     }
 
-    
+    .fa-info{
+        color: #0065FC;
+    }
 
 
 /* Ce qui suit concerne la box 1, contenant "hébergements" et "populaires" */
@@ -590,7 +592,7 @@ padding-right: 19.7%;
 
 @media screen and (max-width: 768px){
     h1{
-        background-color: pink;
+        background-color: blue;
     }
 
 
@@ -637,6 +639,8 @@ header img {
 .bandeau{
 padding-left: 20px;
 padding-right: 20px;
+margin-left: 0px;
+margin-right: 0px;
 }
                  
 .bandeau h1{
@@ -648,7 +652,7 @@ form{
     }
 
     .recherche_d_une_ville{
-        width: 182px;
+        width: 232px;
         }
             
         .button{
@@ -658,6 +662,151 @@ form{
 .loupe{
     display: flex;
 }
+
+.bandeau nav{
+flex-direction: column;
+margin-top: 34px;
+margin-left: 0px;
+font-size: 0.688em;
+}
+   
+
+.bandeau nav{
+width: 100%;
+}
+
+
+        .bandeau ul{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-left: 0px;
+            row-gap: 17px;
+            
+            
+            
+            }
+
+        .bandeau li{
+            width: 160px;
+            display: flex;
+            padding-left: 13px;
+            padding-right: 20px;
+            align-items: center;
+            border-style: solid;
+            border-color:#D9D9D9;
+            border-width: 2px;
+            border-radius: 25px;
+            font-size: 1.063em;
+            white-space: nowrap;
+            height: 50px;
+            cursor: pointer;
+            margin: 0px;
+            }
+        
+        li .fa-solid{
+            margin-right: 5px;
+            font-size: 1.125em;
+            color: blue;
+            }
+
+            h4 {  
+                line-height: 21px;
+                margin-bottom: 15px;
+                }
+  
+.info{
+margin-top: 43px;
+height: 57px;
+margin-left: 0px;
+align-items: flex-start;
+margin-bottom: 17px;
+                    }
+                
+.info div{
+font-size: 0.75em;
+}
+                
+.Box{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0px;
+}
+
+    .populaires {
+        margin-top: 0px;
+        padding-top: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius:0px;
+        }
+
+.lescardspop{
+flex-direction: column;
+margin-left: 0px;
+margin-right: 0px;
+width: 100%;
+margin-top: 26px;
+}
+
+    .cardpop {
+width: 100%;
+margin-bottom: 11px;
+        }
+
+
+.cardpop h2{
+font-size: 1em;
+line-height: 18px;
+}
+        .lescardpop a{
+            width: 100%;
+            margin-bottom: 11px;
+            
+            }    
+
+
+            .vignette_hebergementpop{
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 15px;
+                width: 41%;
+                object-fit: cover;
+                }
+
+
+
+.hebergements{
+    background-color: white;
+    padding-top: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 46px;
+    width: 100%;
+    border-radius: 0px;
+    }
+
+    
+    
+    .les_cards{
+    margin-top: 19px;
+    }
+    
+    
+    .les_cards a{
+        
+        width: 100%;  
+        min-width: 215px;
+        }
+
+
+.card{
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+
+
+
 
 
     }
