@@ -94,7 +94,7 @@ border-right: none;
 padding-left: 17px;
 }
             
-.button{
+.button {
 width: 132px;
 color: white;
 border-color: #0065FC;
@@ -105,22 +105,22 @@ border-top-right-radius: 15px;
 border-bottom-right-radius: 15px;
 }
 
-        .loupe{
-        display: none;
-        width: 49px;
-        border-color: #0065FC;
-        background-color: #0065FC;
-        font-weight: 700;
-        font-size: 1.125em;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        justify-content: center;
-        align-items: center;
-        }
+.loupe {
+display: none;
+width: 49px;
+border-color: #0065FC;
+background-color: #0065FC;
+font-weight: 700;
+font-size: 1.125em;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+justify-content: center;
+align-items: center;
+}
 
-        form .fa-magnifying-glass{
-        color: white
-        }
+form .fa-magnifying-glass{
+color: white
+}
 
 .bandeau nav{
 display: flex;
@@ -335,11 +335,12 @@ border-radius: 20px;
 box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
 }  
 
-.cardactivite > img{
+.cardactivite img{
+display :block;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 width: auto;
-height: 389px;
+min-height: 389px;
 object-fit: cover;
 }
 
@@ -465,31 +466,31 @@ margin-left: 2px;
 width: 96.1%;
 }
 
-.bandeau ul{
+.bandeau ul {
 margin-left: 2%;
 }
 
-.info{     
+.info {     
 margin-left: 0px;
 }
 
-.box{
+.box {
 margin-top: 39px;
 flex-direction: column;
 }
 
-.hebergements{
+.hebergements {
 width: 100%;
 }
     
-.populaires{
+.populaires {
 width: 100%;
 margin-top: 53px;
 padding-left: 40px; 
 padding-top: 34px;
 }
 
-.lescardspop{
+.lescardspop {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -497,31 +498,27 @@ padding-top: 34px;
     padding-bottom: 15px;
 }
 
-.lescardspop a{
+.lescardspop a {
 display: flex;
 justify-content: space-between;
 width: 252px;
 }
 
-
-
-            .descriptif{
-            display: flex;
-            flex-direction: column;
-            margin-top: 7px;
-            }
+.descriptif {
+display: flex;
+flex-direction: column;
+margin-top: 7px;
+}
             
-            .descriptif h2{
-            font-size: 14px;
-            margin-right: 20px;}
+.descriptif h2 {
+font-size: 14px;
+margin-right: 20px;}
 
-.descriptif p{
+.descriptif p {
 font-size: 13px;
 margin-top: 7px;
 }
             
-
-
 .lesactivites{
 margin-top: 70px;
 }
@@ -530,10 +527,10 @@ margin-top: 70px;
 margin-top: 34px;
 }
                 
-                    .lescardsactiv a{
-                    width:20.7%;
-                    height: 267px
-                    }  
+.lescardsactiv a {
+width:20.7%;
+height: 267px
+}  
                 
 
                 
@@ -555,6 +552,7 @@ padding-right: 19.7%;
 
 
 @media screen and (max-width: 768px){
+
 h1{
 background-color: pink;
 }
@@ -704,12 +702,14 @@ margin-left: 0px;
 margin-right: 0px;
 width: 100%;
 margin-top: 28px;
+padding-bottom: 33px;
 }
 
 .lescardspop a{
-    width: 100%;
-    margin-top: 0px;
-    }
+width: 100%;
+margin-top: 0px;
+margin-bottom: 11px;
+}
 
 .cardpop {
 width: 100%;
@@ -721,12 +721,7 @@ font-size: 1em;
 line-height: 18px;
 }
 
-.lescardpop a{
-width: 100%;
-margin-bottom: 11px;
-}    
-
-.vignette_hebergementpop{
+.cardpop > img {
 border-top-left-radius: 15px;
 border-bottom-left-radius: 15px;
 width: 41%;
@@ -743,70 +738,63 @@ width: 100%;
 border-radius: 0px;
 }
 
-.les_cards{
+.les_cards {
 margin-top: 19px;
 }
 
 
-.card{
+.card {
 margin-bottom: 12px;
 width: 100%;
 min-width: 215px;
 }
 
-.afficherplus{
+.afficherplus {
 display: none;
 }
 
 .lesactivites{
-margin-top: 95px;
+margin-top: 93px;
 padding-left: 20px;
 padding-right: 20px;
 }
 
-.lescardsactiv{
+.lescardsactiv {
 flex-direction: column;
-margin-top: 0px;
+margin-top: 24px;
 margin-bottom: 0px;
 }
 
-.lescardsactiv a{
+.lescardsactiv a {
 width: 100%;
 margin-bottom: 24px;
+height: 190px;
 } 
 
-.cardactivite {
-height: 190px;
-}
-
-.vignette_activite{
+.cardactivite > img {
 height: 134px;
 }
 
-.lesactivites h1{
-width: 50%;
-}
-
-footer{
+footer {
 flex-direction: column;
-margin-top: 66px;
+margin-top: 56px;
 padding-top: 35px; 
 padding-left: 29px;
 padding-right: 0px;
 padding-bottom: 21px;
-height: 100%;
+height: 551px;
 }
 
-footer div{
+footer div {
 margin-bottom: 40px;
 }
 
-footer li{
+footer li {
 margin-bottom: 12px;
 font-size: 1em;
 line-height: 19px;
 }
 
 
-    }
+}
 
