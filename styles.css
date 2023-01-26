@@ -108,7 +108,6 @@ border-bottom-right-radius: 15px;
         .loupe{
         display: none;
         width: 49px;
-        color: white;
         border-color: #0065FC;
         background-color: #0065FC;
         font-weight: 700;
@@ -119,6 +118,9 @@ border-bottom-right-radius: 15px;
         align-items: center;
         }
 
+        form .fa-magnifying-glass{
+        color: white
+        }
 
 .bandeau nav{
 display: flex;
@@ -275,12 +277,9 @@ align-items: center;
        
 .lescardspop a{
 display: block;
+display: flex;
 margin-top: 26px;
 width: 100%;
-}
-
-.cardpop{
-display: flex;
 height: 144px;
 border-radius: 20px;
 background-color: white;
@@ -289,7 +288,7 @@ margin-bottom: 33px;
 box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
 }
 
-.vignette_hebergementpop{
+.cardpop > img {
 border-top-left-radius: 15px;
 border-bottom-left-radius: 15px;
 width: 38.1%;
@@ -326,19 +325,17 @@ justify-content: space-between;
 margin-top: 18px;
 }
 
-.lescardsactiv a{
+.lescardsactiv > a{
+display: block;
 width: 22.5%;
-}  
-
-.cardactivite{
 display: flex;
 flex-direction: column;
 height: 445px;
 border-radius: 20px;
-box-shadow: 0px 5px 10px rgba(0,0,0,0.1);      
-}
- 
-.vignette_activite{
+box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}  
+
+.cardactivite > img{
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 width: auto;
@@ -353,7 +350,7 @@ align-items: center;
 height: 100%;
 }
 
-.cardactivite h2{
+.nomactivite > h2{
 display: flex;
 margin-left: 19px;
 margin-right: 20px;
@@ -500,25 +497,13 @@ padding-top: 34px;
     padding-bottom: 15px;
 }
 
-        .lescardspop a{
-        display: flex;
-       
-        justify-content: space-between;
-        width: 252px;
-        
-        }
+.lescardspop a{
+display: flex;
+justify-content: space-between;
+width: 252px;
+}
 
-        .cardpop {
-            width: 252px;
-            }
 
-            .vignette_hebergementpop{
-                border-top-left-radius: 15px;
-                border-bottom-left-radius: 15px;
-                width: 96px;
-                height: auto;
-                object-fit: cover;
-                }
 
             .descriptif{
             display: flex;
@@ -530,28 +515,29 @@ padding-top: 34px;
             font-size: 14px;
             margin-right: 20px;}
 
-            .descriptif p{font-size: 13px;
-            margin-top: 7px;}
+.descriptif p{
+font-size: 13px;
+margin-top: 7px;
+}
             
 
 
-            .lesactivites{
-                margin-top: 70px;
-                }
+.lesactivites{
+margin-top: 70px;
+}
                 
-                .lescardsactiv{
-                    margin-top: 34px;
-                    }
+.lescardsactiv{
+margin-top: 34px;
+}
                 
                     .lescardsactiv a{
                     width:20.7%;
+                    height: 267px
                     }  
                 
-.cardactivite{  
-height: 267px;
-}
+
                 
-.vignette_activite{ 
+.cardactivite > img { 
 height: 211px;
 }
            
@@ -569,9 +555,9 @@ padding-right: 19.7%;
 
 
 @media screen and (max-width: 768px){
-    h1{
-        background-color: transparent;
-    }
+h1{
+background-color: pink;
+}
 
 body {
 padding: 0px 0px 0px 0px;
