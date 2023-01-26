@@ -234,12 +234,12 @@ border-radius: 20px;
     object-fit: cover;
 }
 
-.card > h2{
+.card > h2 {
     margin-top: 9px;
     margin-left: 11px;
 }         
                
-.card > p{
+.card > p {
     margin-top: 9px;
     margin-left: 11px;
 }
@@ -437,6 +437,30 @@ line-height: 15px;
 font-weight: 700;
 }
 
+
+/* media queries petit ecran PC*/
+
+/* rajout pour écrans intermédiaires*/
+
+@media screen and (max-width: 1210px){
+
+.bandeau nav {
+width: 88%;
+}
+    
+.les_cards {
+justify-content: space-around;
+}
+
+.card {
+width: 40.8%;
+}
+
+}
+
+
+
+
 /* media queries tablette*/
 
 @media screen and (max-width: 992px){
@@ -482,7 +506,15 @@ flex-direction: column;
 .hebergements {
 width: 100%;
 }
-    
+
+.les_cards {
+justify-content: space-between;
+}
+        
+.card {
+width: 30.8%;
+}
+
 .populaires {
 width: 100%;
 margin-top: 53px;
@@ -501,7 +533,8 @@ padding-top: 34px;
 .lescardspop a {
 display: flex;
 justify-content: space-between;
-width: 252px;
+width: 30.8%;
+min-width: 215px;
 }
 
 .descriptif {
@@ -532,10 +565,9 @@ width:20.7%;
 height: 267px
 }  
                 
-
-                
 .cardactivite > img { 
-height: 211px;
+min-height: 211px;
+
 }
            
                                 
@@ -546,6 +578,34 @@ padding-right: 19.7%;
 }
               
 }
+
+/* media queries petit ecran tablette*/
+
+/* rajout pour écrans intermédiaires*/
+
+@media screen and (max-width: 860px){
+
+
+        
+    .les_cards {
+    justify-content: space-around;
+    }
+    
+    .card {
+    width: 40.8%;
+    }
+    
+.lescardspop {
+    justify-content: space-around;
+}
+
+.lescardspop a{
+
+   width: 40.8%;
+}
+
+    }
+
 
 
 /* media queries mobile*/
@@ -771,8 +831,9 @@ margin-bottom: 24px;
 height: 190px;
 } 
 
-.cardactivite > img {
-height: 134px;
+.cardactivite img {
+min-height: 134px;
+max-height: 134px;
 }
 
 footer {
