@@ -1,22 +1,23 @@
 /* Reset */
-* {
+
+*{
 margin: 0px;
 padding: 0px;
 box-sizing: border-box;
 }
 
 .cadre {
-    border: solid 1px red;
+border: solid 1px red;
 }   
 
 body {
-    max-width: 1400px;
-    background-color: white;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
+max-width: 1400px;
+background-color: white;
+padding-left: 30px;
+padding-right: 30px;
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 1em;
 }
 
 /* Ce quisuit concerne le header */
@@ -40,16 +41,16 @@ justify-content: space-around;
 }
 
 header nav a {
-    padding-top: 46px;
-    font-weight: 400;    
-    text-align: center;
-    border-top: solid 2px transparent;
+padding-top: 46px;
+font-weight: 400;    
+text-align: center;
+border-top: solid 2px transparent;
 }
 
 header nav a:hover {
-    color: #0065FC;
-    border-top: solid 2px #0065FC;
-    font-weight: 500;
+color: #0065FC;
+border-top: solid 2px #0065FC;
+font-weight: 500;
 }
 
 /* Ce qui suit concerne le bandeau */
@@ -122,7 +123,7 @@ form .fa-magnifying-glass{
 color: white
 }
 
-.bandeau nav{
+.bandeau nav {
 display: flex;
 margin-top: 31px;
 margin-left: 7px;
@@ -184,14 +185,13 @@ align-items: center;
 }
 
 
-/* Ce qui suit concerne la box 1, contenant "hébergements" et "populaires" */
+/* Ce qui suit concerne la box, contenant "hébergements" et "populaires" */
 
 .box{
-margin-top: 19px;
 display: flex;
+margin-top: 19px;
 justify-content: space-between;
 }
-
 
 /* Ce qui suit concerne la section "hébergements"*/   
 
@@ -206,51 +206,49 @@ border-radius: 20px;
 }
 
 .les_cards {
-    display: flex;
-    margin-top: 23px;  
-    flex-wrap: wrap;
-    justify-content: space-between;
+display: flex;
+margin-top: 23px;  
+flex-wrap: wrap;
+justify-content: space-between;
 }
-
-     
-.card {
-    display: block;
-    width: 30.8%;  
-    min-width: 215px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    height: 199px;
-    border-radius: 20px;
-    background-color: white;
-    padding: 5px;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+  
+.les_cards a{
+display: block;
+width: 30.8%;  
+min-width: 215px;
+margin-bottom: 30px;
+display: flex;
+flex-direction: column;
+height: 199px;
+border-radius: 20px;
+background-color: white;
+padding: 5px;
+box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
 }
 
 .card > img {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;   
-    height: 114px;
-    object-fit: cover;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;   
+height: 114px;
+object-fit: cover;
 }
 
 .card > h2 {
-    margin-top: 9px;
-    margin-left: 11px;
+margin-top: 9px;
+margin-left: 11px;
 }         
                
 .card > p {
-    margin-top: 9px;
-    margin-left: 11px;
+margin-top: 9px;
+margin-left: 11px;
 }
 
 .card > div{
-    line-height: 12px;
-    margin-left: 11px;
-    margin-top: 9px;
+line-height: 12px;
+margin-left: 11px;
+margin-top: 9px;
 }
               
-
 .afficherplus{
 margin-top: 10px;
 margin-left: 4px;
@@ -340,7 +338,7 @@ display :block;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 width: auto;
-min-height: 389px;
+height: 389px;
 object-fit: cover;
 }
 
@@ -455,19 +453,12 @@ justify-content: space-around;
 .card {
 width: 40.8%;
 }
-
 }
-
-
 
 
 /* media queries tablette*/
 
 @media screen and (max-width: 992px){
-
-h1{
-background-color: green;
-}
 
 body{
 padding-left: 56px;
@@ -523,11 +514,11 @@ padding-top: 34px;
 }
 
 .lescardspop {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-bottom: 15px;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+padding-bottom: 15px;
 }
 
 .lescardspop a {
@@ -567,49 +558,38 @@ height: 267px
                 
 .cardactivite > img { 
 min-height: 211px;
-
 }
-           
-                                
+                             
 footer{
 margin-top: 69px;
 padding-left: 8%;
 padding-right: 19.7%;
-}
-              
+}         
 }
 
-/* media queries petit ecran tablette*/
-
-/* rajout pour écrans intermédiaires*/
+/* media queries petits ecrans tablette*/
 
 @media screen and (max-width: 860px){
-
-
-        
-    .les_cards {
-    justify-content: space-around;
-    }
+  
+.les_cards {
+justify-content: space-around;
+}
     
-    .card {
-    width: 40.8%;
-    }
+.card {
+width: 40.8%;
+}
     
 .lescardspop {
-    justify-content: space-around;
+justify-content: space-around;
 }
 
 .lescardspop a{
 
-   width: 40.8%;
+width: 40.8%;
+}
 }
 
-    }
-
-
-
 /* media queries mobile*/
-
 
 @media screen and (max-width: 768px){
 
@@ -688,41 +668,23 @@ flex-direction: column;
 margin-top: 34px;
 margin-left: 0px;
 font-size: 0.688em;
-}
-
-.bandeau nav{
 width: 100%;
 }
 
 .bandeau ul{
-display: flex;
-justify-content: space-between;
-width: 100%;
 margin-left: 0px;
 row-gap: 17px;
 }
 
 .bandeau li{
 width: 160px;
-display: flex;
 padding-left: 13px;
-padding-right: 20px;
-align-items: center;
-border-style: solid;
-border-color:#D9D9D9;
-border-width: 2px;
-border-radius: 25px;
 font-size: 1.063em;
-white-space: nowrap;
-height: 50px;
-cursor: pointer;
-margin: 0px;
 }
-        
+
 li .fa-solid{
 margin-right: 5px;
 font-size: 1.125em;
-color: blue;
 }
 
 h4 {  
@@ -855,7 +817,5 @@ margin-bottom: 12px;
 font-size: 1em;
 line-height: 19px;
 }
-
-
 }
 
