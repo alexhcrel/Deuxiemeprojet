@@ -37,7 +37,6 @@ margin-top: 44px;
 header nav {
 display: grid;
 grid-template-columns: 162px 136px;
-justify-content: space-around;
 }
 
 header nav a {
