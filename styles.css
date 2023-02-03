@@ -193,7 +193,9 @@ justify-content: center;
 align-items: center;
 }
 
-
+.bandeau p{
+font-size: 1em;
+}
 /* Ce qui suit concerne la box, contenant "hébergements" et "populaires" */
 
 .box{
@@ -262,6 +264,10 @@ margin-top: 9px;
 margin-top: 10px;
 margin-left: 4px;
 font-weight: 700;
+
+}
+
+.afficherplus p{
 font-size: 1.125em;
 }
 
@@ -437,12 +443,12 @@ color: black;
 
 p{
 font-size: 0.875em;
-line-height: 15px;
 }
 
 .gras{
 font-weight: 700;
 }
+
 
 
 /* media queries petit ecran PC*/
