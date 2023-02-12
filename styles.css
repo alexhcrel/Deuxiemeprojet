@@ -92,8 +92,11 @@ label .fa-location-dot {
     border-left: none;
     border-right: none;
     padding-left: 17px;
+    outline: none;
 }
-            
+        
+
+
 .button {
     width: 132px;
     color: white;
@@ -287,7 +290,7 @@ justify-content: space-between;
     justify-content: space-between;
     align-items: center;
 }
-       
+
 .lescardspop a {
     display: block;
     display: flex;
@@ -399,7 +402,7 @@ footer li {
     color: #0065FC;
 }
 
-.fa-star {
+fa-star {
     font-size: 0.75em;
 }
     
